@@ -71,7 +71,7 @@
   .tick{ color:var(--ok); font-weight:900; }
 
   .book-stage{ perspective:1400px; display:flex; justify-content:center; }
-  .book-img{ width:100%; max-width:380px; height:auto; mix-blend-mode:multiply; }
+  .book-img{ width:100%; max-width:380px; height:auto; filter:drop-shadow(14px 20px 26px rgba(15,32,51,.22)); }
   .reply .mini{ overflow:hidden; }
   .reply .mini img{ width:100%; height:100%; object-fit:cover; object-position:50% 20%; }
   .mascot-fig{ display:flex; align-items:center; gap:22px; justify-content:center; margin-top:8px; flex-wrap:wrap; }
@@ -216,7 +216,7 @@
       </div>
     </div>
     <div class="book-stage">
-      <img class="book-img" src="images/book-mockup.jpg" alt="The Autophagy Activation Blueprint, the 14-day cellular renewal plan">
+      <img class="book-img" src="images/book-mockup.png" alt="The Autophagy Activation Blueprint, the 14-day cellular renewal plan">
     </div>
   </div>
 </section>
@@ -258,7 +258,7 @@
     </div>
 
     <div class="reply">
-      <div class="who"><span class="mini"><img src="images/mascot.jpg" alt=""></span> My reply</div>
+      <div class="who"><span class="mini">&#128293;</span> My reply</div>
       <p style="margin-top:8px;">You are not doing anything wrong. There is just one thing almost no one explains: fasting and activating autophagy are not the same thing. You can do the hours perfectly and still leave that renewal process switched off, which is exactly why the belly won't move. Closing that gap is the entire reason I put the Blueprint together.</p>
     </div>
   </div>
@@ -345,13 +345,10 @@
   </div>
 </section>
 
-<!-- ============ MASCOT / STRAIGHT TALK ============ -->
-<section style="padding:32px 0 8px;">
-  <div class="wrap narrow">
-    <div class="mascot-fig">
-      <img src="images/mascot.jpg" alt="Your Autophagy Activation guide">
-      <div class="bubble"><strong>Straight talk:</strong> I'm not here to promise a miracle. I'm here to hand you the exact, evidence-based steps to switch on autophagy the right way, in 14 days, at a pace that's safe for a 55+ body. The rest is just opening the guide and following the plan.</div>
-    </div>
+<!-- ============ STRAIGHT TALK ============ -->
+<section style="padding:40px 0 12px;">
+  <div class="wrap narrow center">
+    <p style="font-size:1.3rem; line-height:1.5; color:var(--ink); max-width:660px; margin:0 auto;"><strong>Straight talk:</strong> I'm not here to promise a miracle. I'm here to hand you the exact, evidence-based steps to switch on autophagy the right way, in 14 days, at a pace that's safe for a 55+ body. The rest is just opening the guide and following the plan.</p>
   </div>
 </section>
 
@@ -438,7 +435,6 @@
 <!-- ============ FINAL CTA ============ -->
 <section class="final">
   <div class="wrap narrow">
-    <img class="mascot-final" src="images/mascot.jpg" alt="">
     <span class="kicker">Start tonight</span>
     <h2 style="margin:10px 0 14px;">Stop fasting and hoping. Start doing it the way the evidence supports.</h2>
     <p class="muted" style="max-width:560px; margin:0 auto 26px;">You've already done the hard part: the discipline, the hunger, the patience. Give it 14 days, and finally get the result you have been fasting for.</p>
